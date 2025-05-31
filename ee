@@ -1,0 +1,948 @@
+36657 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-kernel32-legacy-l1-1-1.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+36688 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-synch-l1-1-0.dll
+36693 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-synch-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+36725 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-timezone-l1-1-0.dll
+36729 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-timezone-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+36762 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-sysinfo-l1-2-0.dll
+36767 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-sysinfo-l1-2-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+36800 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-file-l1-2-0.dll
+36803 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-file-l1-2-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+36832 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-console-l1-1-0.dll
+36836 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-console-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+36866 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-synch-l1-2-0.dll
+36870 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-synch-l1-2-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+36899 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-processthreads-l1-1-1.dll
+36902 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-processthreads-l1-1-1.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+36936 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-sysinfo-l1-1-0.dll
+36941 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-sysinfo-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+36975 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-util-l1-1-0.dll
+36978 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-util-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37007 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-debug-l1-1-0.dll
+37010 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-debug-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37038 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-string-l1-1-0.dll
+37042 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-string-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37076 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-processenvironment-l1-1-0.dll
+37079 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-processenvironment-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37109 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-fibers-l1-1-1.dll
+37113 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-fibers-l1-1-1.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37147 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-datetime-l1-1-0.dll
+37150 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-datetime-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37182 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-processthreads-l1-1-0.dll
+37186 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-processthreads-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37215 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-interlocked-l1-1-0.dll
+37218 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-interlocked-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37251 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-heap-l1-1-0.dll
+37254 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-heap-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37287 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-file-l1-1-0.dll
+37291 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-file-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37325 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-libraryloader-l1-1-0.dll
+37328 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-libraryloader-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37357 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-file-l2-1-0.dll
+37361 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-file-l2-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37395 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-rtlsupport-l1-1-0.dll
+37399 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-rtlsupport-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37432 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-handle-l1-1-0.dll
+37436 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-handle-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37472 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-localization-l1-2-0.dll
+37476 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-localization-l1-2-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37512 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-errorhandling-l1-1-0.dll
+37515 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-errorhandling-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37546 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-profile-l1-1-0.dll
+37550 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-profile-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37583 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-memory-l1-1-0.dll
+37586 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-memory-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+37621 INFO: Executing: strip C:\Users\daebu\AppData\Local\pyinstaller\bincache10py31364bit\api-ms-win-core-fibers-l1-1-0.dll
+37625 WARNING: Failed to run strip on 'C:\\Users\\daebu\\AppData\\Local\\pyinstaller\\bincache10py31364bit\\api-ms-win-core-fibers-l1-1-0.dll'!
+Traceback (most recent call last):
+  File "C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\building\utils.py", line 245, in process_collected_binary
+    p = subprocess.run(
+        cmd,
+    ...<5 lines>...
+        encoding='utf-8',
+    )
+  File "C:\Python313\Lib\subprocess.py", line 556, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1038, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python313\Lib\subprocess.py", line 1550, in _execute_child
+    hp, ht, pid, tid = _winapi.CreateProcess(executable, args,
+                       ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+                             # no special security
+                             ^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+                             cwd,
+                             ^^^^
+                             startupinfo)
+                             ^^^^^^^^^^^^
+FileNotFoundError: [WinError 2] The system cannot find the file specified
+44607 INFO: Building PKG (CArchive) PushUpQuest.pkg completed successfully.
+44633 INFO: Bootloader C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+44633 INFO: checking EXE
+44634 INFO: Building EXE because EXE-00.toc is non existent
+44634 INFO: Building EXE from EXE-00.toc
+44634 INFO: Copying bootloader EXE to C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\dist\PushUpQuest.exe
+45103 INFO: Copying icon to EXE
+45351 INFO: Copying 0 resources to EXE
+45352 INFO: Embedding manifest in EXE
+45688 INFO: Appending PKG archive to EXE
+45846 INFO: Fixing EXE headers
+50832 INFO: Building EXE from EXE-00.toc completed successfully.
+50858 INFO: Build complete! The results are available in: C:\Users\daebu\OneDrive\바탕 화면\PushUpQuestApp\dist
+
+🎉 빌드 성공!
+📁 생성된 파일: dist\PushUpQuest.exe
+📊 파일 크기: 10.5 MB
+💡 이제 dist\PushUpQuest.exe 파일을 실행하세요!
+✓ build.bat 파일 생성 완료
+
+🎯 추가 생성된 파일:
+   - build.bat: 다음에 쉽게 빌드할 때 사용
+
+========================================
+완료! 엔터를 눌러 종료...
