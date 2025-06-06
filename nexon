@@ -1,0 +1,336 @@
+<html lang="ko" style=""><head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>EA SPORTS FC MOBILE - NEXON Korea</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="EA SPORTS FC MOBILE - NEXON Korea">
+    <meta name="author" content="NEXON Korea">
+    <meta name="keywords" content="NEXON, 넥슨, NEXON Korea, 넥슨코리아, FC, FC 모바일, EA, EA Sports, 스포츠">
+    <link rel="shortcut Icon" href="https://ssl.nexon.com/s2/game/fc/mobile/common/fc_favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://ssl.nexon.com/s2/game/fc/mobile/common/fc_favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="모바일에 최적화된 축구 게임! [ FC 모바일 ] 을 먼저 체험해보세요.">
+    <meta property="og:image" content="https://ssl.nexon.com/s2/game/fc/mobile/common/fc_mobile_270.png">
+
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-M4GSK9H3"></script><script src="https://fcmobile.nexon.com/Scripts/s1/library/jquery.min.js"></script>
+    <script src="https://fcmobile.nexon.com/Scripts/s1/library/TweenMax.min.js"></script>
+    <script src="https://fcmobile.nexon.com/Scripts/s1/plugin/jquery.easing.min.js"></script>
+    <link rel="stylesheet" href="https://fcmobile.nexon.com/Content/s3/common/init.css" media="all">
+
+    <!-- Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-EPDL2J35ZK"></script>
+
+    <script>
+        var getCookie = function (name) {
+            var nameOfCookie = name + "=", x = 0;
+            while (x <= document.cookie.length) {
+                var y = (x + nameOfCookie.length);
+                if (document.cookie.substring(x, y) == nameOfCookie) {
+                    if ((endOfCookie = document.cookie.indexOf(";", y)) == -1) {
+                        endOfCookie = document.cookie.length;
+                    }
+                    return unescape(document.cookie.substring(y, endOfCookie));
+                }
+                x = document.cookie.indexOf(" ", x) + 1;
+                if (x == 0) {
+                    break;
+                }
+            }
+            return "";
+        }
+
+        var getCookieValue = function (cookies, key) {
+            if (cookies.split("&").length > 0) {
+                for (var i = 0; i < cookies.split("&").length; i++) {
+                    if (cookies.split("&")[i].split("=")[0] == key)
+                        return cookies.split("&")[i].split("=")[1];
+                }
+            }
+            return "";
+        }
+
+        function GoogleAnalyticsUID() {
+            var NPP = getCookie("NPP_GA");
+            if (NPP != undefined && NPP != "") {
+                var userid = NPP;
+                if (userid != "") {
+                    return userid;
+                }
+            }
+        }
+
+        window.dataLayer = window.dataLayer || []; 
+        function gtag(){
+            dataLayer.push(arguments);
+        } 
+        gtag('js', new Date()); 
+        gtag('config', 'G-EPDL2J35ZK', {
+            "user_id": GoogleAnalyticsUID(),
+            "dimension1": GoogleAnalyticsUID(),
+            "dimension2": document.domain
+        }); 
+    </script>
+    <!-- End Google Analytics -->
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M4GSK9H3');
+    </script>
+    <!-- End Google Tag Manager -->    
+
+    
+    <script src="https://fcmobile.nexon.com/Scripts/s1/library/jquery.min.js"></script>
+    <script src="https://fcmobile.nexon.com/Scripts/s1/library/TweenMax.min.js"></script>
+    <script src="https://fcmobile.nexon.com/Scripts/s1/plugin/jquery.easing.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://fcmobile.nexon.com/Content/s3/common/init.css" media="all" /> -->
+    <script src="https://ssl.nexon.com/s1/nest/sdk.js"></script><script src="https://ssl.nexon.com/s1/nest/sdk-loader.js?v=1749184023152" type="text/javascript"></script><script type="text/javascript" charset="utf8" async="" src="https://ssl.nexon.com/s1/nest/sdk-2.6.3.min.js"></script>
+    <script src="/Scripts/m_login.js"></script>
+
+        
+        <script type="text/javascript" src="https://ssl.nexon.com/s1/global/ngb_head.js"></script><script src="https://ssl.nexon.com/s1/global/ngb_headstart.js?v=1749184024555" type="text/javascript"></script><script src="https://platform.nexon.com/ajax/npf_auth_c.js" type="text/javascript"></script><script charset="euc-kr" src="https://logins.nexon.com/login/page/ngb_login.aspx" type="text/javascript"></script><script src="https://ssl.nexon.com/s1/global/ngb_RSAHash2.js" type="text/javascript"></script><script charset="euc-kr" src="https://logins.nexon.com/scripts/captchalogin" type="text/javascript"></script><script charset="euc-kr" src="https://ssl.nexon.com/s1/global/ngb_pcbanglogin.js?v=20181015" type="text/javascript"></script><script charset="euc-kr" src="https://ssl.nexon.com/s1/global/ngb_util.js?v=20190903" type="text/javascript"></script><script charset="euc-kr" src="https://ssl.nexon.com/s1/member/nxmember.js?v=20200111" type="text/javascript"></script><script charset="euc-kr" src="https://ssl.nexon.com/s1/External/makePCIDCookie.js" type="text/javascript"></script><script src="https://ssl.nexon.com/s1/da/a2s.js" type="text/javascript"></script>
+        <script type="text/javascript" src="https://ssl.nexon.com/s1/p2/ps.min.js" charset="utf-8" data-name="PS" data-ngm="true" data-nxlogin="true"></script><script type="text/javascript" charset="euc-kr" src="https://platform.nexon.com/common/platform.js"></script><script type="text/javascript" charset="euc-kr" src="https://platform.nexon.com/ngm/js/NGMModuleInfo.js"></script><script type="text/javascript" charset="euc-kr" src="https://platform.nexon.com/ngm/js/npf_ngm.js"></script><script type="text/javascript" charset="utf-8" src="https://ssl.nexon.com/s1/p2/util.min.js" data-name="PSUtil"></script>
+        
+
+    <style>
+	html { overscroll-behavior:none; }
+    #middle .content.section .inner { overscroll-behavior:none; }
+    </style>
+    <link rel="stylesheet" href="https://ssl.nexon.com/s1/fcm/mobile/sqmaker/app.css?t=202506061327" media="all">
+    <style>
+        .layer_popup{z-index:1020;position:fixed;left:0;top:0;overflow-y:auto;-webkit-overflow-scrolling:auto;display:none;width:100%;height:100%;background-color:rgba(0,0,0,.8)}.layer_popup .content{z-index:1040;position:absolute;left:50%;top:50%;box-sizing:border-box;width:320px;padding:16px;border-radius:8px;box-shadow:0 0 32px rgba(0,0,0,.8);transform:translateX(-50%) translateY(-50%);background-color:#fff}.layer_popup .content .btn_close{z-index:32;position:absolute;left:50%;top:-40px;width:32px;height:32px;margin-left:-16px;background:url("https://ssl.nexon.com/s2/game/fmk/event/2021/common/btn_close.png") left top/32px no-repeat}.layer_popup .content h4.title{padding-bottom:16px;font-weight:700;font-size:16px;line-height:16px;color:#0048be;text-align:center;letter-spacing:0}.layer_popup .content h4.title strong{font-weight:700;font-size:16px;line-height:16px;color:#fa3200;vertical-align:top;letter-spacing:0}.layer_popup .content .message{font-size:12px;line-height:16px;color:#00305a;letter-spacing:0;text-align:center}.layer_popup .content .message>strong{display:block;font-weight:700;font-size:12px;line-height:16px;color:#0048be;letter-spacing:0}.layer_popup .content .message>strong.red{color:#fa3200}.layer_popup .content .message>strong span{font-weight:700;font-size:12px;line-height:16px;color:#fa3200;letter-spacing:0;vertical-align:top}.layer_popup .content .message>span{display:block;margin-top:4px;font-size:10px;line-height:14px;color:#000;letter-spacing:0}.layer_popup .content .message>span em{font-size:10px;line-height:14px;color:#fa3200;letter-spacing:0;vertical-align:top}.layer_popup .content .button{margin-top:16px;font-size:0;line-height:0;text-align:center}.layer_popup .content .button .btn_type_blue,.layer_popup .content .button .btn_type_red{width:140px;height:40px;margin:0 2px;box-shadow:2px 2px 0 #d8d8d8;font-size:12px;line-height:40px;color:#fff;text-align:center;letter-spacing:0!important;border-radius:4px}.layer_popup .content .button .btn_type_blue{background-color:#00305a;padding:0;}.layer_popup .content .button .btn_type_red{background-color:#fa3200;padding:0;}.layer_popup .content .notice table tr td,.layer_popup .content .notice table tr th{padding:8px 0;color:#000;text-align:center;vertical-align:middle;font-size:10px;line-height:14px;border-right:1px solid #b2c0cc;border-bottom:1px solid #b2c0cc}.notice.layer_popup .content{top:56px;width:512px;padding:16px 32px;transform:translateX(-50%) translateY(0)}.layer_popup .content .notice{font-size:12px;line-height:2;color:#000}.layer_popup .content .notice b,.layer_popup .content .notice p,.layer_popup .content .notice span{text-decoration:inherit;font-size:inherit;line-height:inherit;color:inherit;letter-spacing:inherit;vertical-align:baseline;background-color:inherit}.layer_popup .content .notice b{font-weight:700}.layer_popup .content .notice ul{list-style:disc}.layer_popup .content .notice ol{list-style:decimal}.layer_popup .content .notice ol li,.layer_popup .content .notice ul li{margin-left:16px}.layer_popup .content .notice ol li::marker,.layer_popup .content .notice ul li::marker{font-size:10px;line-height:1;color:inherit;letter-spacing:inherit}.layer_popup .content .notice table{table-layout:fixed;width:100%!important;border:1px solid #00305a}.layer_popup .content .notice table tr td:last-child,.layer_popup .content .notice table tr th:last-child{border-right:none}.layer_popup .content .notice table tr td.first,.layer_popup .content .notice table tr td.last,.layer_popup .content .notice table tr th.last,.layer_popup .content .notice table tr:last-child td{border-bottom:none}.layer_popup .content .notice table tr th{font-weight:700;background-color:#f6f6f6}.layer_popup .content .notice table tr td strong.red{font-weight:700;font-size:10px;line-height:14px;color:#fa3200}
+    </style>
+        <script>
+    var Navi = {
+        Login: function (e) {
+            top.PS.nxlogin.showLoginLayer();
+            if (e != null) e.preventDefault();
+        },
+        Logout: function (e) {
+            NgbLogin.Logout();
+            if (e != null) e.preventDefault();
+        }
+    }
+    var Navi_M = {
+        Login: function (e) {
+            FmkMLogin.LogIn();
+            if (e != null) e.preventDefault();
+        },
+        Logout: function (e) {
+            FmkMLogin.Logout();
+            if (e != null) e.preventDefault();
+        }
+    }
+    </script>
+     <script> 
+        const layerPopupOpen = (t) => {
+        let length = 0;
+        let layerPopup = document.querySelectorAll(".layer_popup");
+        let target = document.querySelector(`.layer_popup.${t}`);
+
+        layerPopup.forEach((target) => {
+            if (target.style.display == "block") length++;
+        });
+
+        if (length >= 1) {
+            let getComputedStyle = window.getComputedStyle(target);
+            let zIndex = getComputedStyle.getPropertyValue("z-index");
+            target.style.zIndex = Number(zIndex) + length;
+        }
+
+        target.style.transition = "opacity 0.2s";
+        target.style.opacity = "0";
+        target.style.display = "block";
+        setTimeout(() => {
+            target.style.opacity = "1";
+        }, 400);
+        };
+
+        // 팝업 닫기: layerPopupClose(타켓 클래스 or 타켓 없을 시 모든 팝업 닫기)
+        const layerPopupClose = (t) => {
+        if (!t) {
+            let layerPopup = document.querySelectorAll(".layer_popup");
+            layerPopup.forEach((target) => {
+            if (target.style.display == "block") {
+                target.style.transition = "opacity 0.2s";
+                target.style.opacity = "0";
+                setTimeout(() => {
+                target.style.display = "none";
+                target.removeAttribute("style");
+                }, 400);
+            }
+            });
+        } else {
+            let target = document.querySelector(`.layer_popup.${t}`);
+            target.style.transition = "opacity 0.2s";
+            target.style.opacity = "0";
+            setTimeout(() => {
+            target.style.display = "none";
+            target.removeAttribute("style");
+            }, 400);
+        }
+        };
+
+        function fnGetNotice() {
+            $.ajax({
+                type: "GET",
+                contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+                url: '/api/eventnotice/241205SQDM',
+                dataType: 'json',
+                data: {},
+                success: function (data) {
+                    if (data.resultCode == 0) {
+                        $("#NoticeContentsArea").html(data.resultValue);
+                        $("#NoticeTitleArea").html(`${data.resultMessage}`);
+                        layerPopupOpen('notice');
+                    }
+                }
+            });
+        }
+    </script>
+    
+
+<link rel="stylesheet" type="text/css" href="https://ssl.nexon.com/s1/fcm/mobile/sqmaker/app.chunk.css?timestamp=1748991560663"><style>
+  /* --------------------------------------------------
+   숫자 슬라이더 핸들 크기 (v1.x용)
+  -------------------------------------------------- */
+  .noUi-handle {
+    width: 16px !important;
+    height: 16px !important;
+    top: -4px !important;
+    background: white !important;
+    border: 2px solid #888 !important;
+    border-radius: 50% !important;
+  }
+
+  /* --------------------------------------------------
+   개인기 등급 슬라이더 핸들: 별 모양 & 색상
+  -------------------------------------------------- */
+  #custom-skill-slider .noUi-handle::after {
+    content: "★";
+    font-size: 16px;
+    color: gold;
+    position: absolute;
+    top: -2px;
+    left: 0;
+  }
+  #custom-skill-slider .noUi-connect {
+    background: gold !important;
+  }
+
+  /* --------------------------------------------------
+   체력 슬라이더 핸들: 번개 모양 & 색상
+  -------------------------------------------------- */
+  #custom-stamina-slider .noUi-handle::after {
+    content: "⚡";
+    font-size: 14px;
+    color: gold;
+    position: absolute;
+    top: -1px;
+    left: 1px;
+  }
+  #custom-stamina-slider .noUi-connect {
+    background: gold !important;
+  }
+
+  /* --------------------------------------------------
+   활성화/비활성화 토글 버튼 스타일
+  -------------------------------------------------- */
+  .cf-toggle-button {
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-left: 8px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .cf-toggle-button.active {
+    background-color: #28a745; /* green */
+  }
+  .cf-toggle-button.inactive {
+    background-color: #dc3545; /* red */
+  }
+
+  /* --------------------------------------------------
+   주발/약발 박스 스타일
+  -------------------------------------------------- */
+  .cf-foot-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    z-index: 1000; /* 오버레이가 항상 위에 있도록 */
+    background: rgba(0, 0, 0, 0); /* 투명 */
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+  }
+  .cf-foot-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #333;
+    color: white;
+    font-size: 1rem;
+    user-select: none;
+    cursor: pointer;
+  }
+  .cf-foot-box.disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  .cf-foot-select-button {
+    padding: 2px 6px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+</style><script type="text/javascript" charset="utf-8" src="https://fesdk.nexon.com/ngm-execution-layer/bundle.js" data-name="NgmRunLayer"></script><style data-styled="active" data-styled-version="5.3.11"></style></head>
+<body><script type="text/javascript" src="https://ssl.nexon.com/s1/global/ngb_bodystart.js" charset="euc-kr"></script>
+    <!-- FC Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4GSK9H3" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- FC End Google Tag Manager (noscript) -->
+
+    <div id="wrapper">
+        <!-- MAIN -->
+        
+
+
+<input name="__RequestVerificationToken" type="hidden" value="pLyuruKZfh9AovQWIX8AuN2SwNkrHfaWMht_ixcsp5EW21-mewYuqYmm-2jzznRnfnXPBWCoWsRqwEACQ9dg3cncf1xFtuHRDg-uHfNodRQ1">
+
+<div id="root"><div class="inner_wrap pc" id="inner_wrap"><div class="tops flex w-full items-center justify-between px-4 pb-1"><div class="navTitle flex items-center text-2xl font-extrabold text-[#fff] lSize:pl-3 lSize:text-[2rem]">스쿼드 메이커 <span class="ml-1 text-sm font-normal text-[#38FEC9]">Beta</span><button class="guideBtn ml-3 h-full min-h-0 rounded-none border border-solid border-white bg-transparent px-2 py-[0.15rem] text-sm text-[#fff] lSize:py-[0.4rem] lSize:text-[1.3rem]">사용 가이드 NEW!</button></div><div class="flex gap-[2px]"><button class="topBtns h-full min-h-0  rounded-none bg-[#333A3B] px-3 py-[0.35rem] text-xs text-[#fff] lSize:text-[1rem]"><svg xmlns="http://www.w3.org/2000/svg" class="d-inline relative top-[-1px] mr-2 h-[0.8rem] w-[0.7rem]" viewBox="0 0 52 50" fill="none"><path d="M48.0638 31.3615V44.6384C48.0638 45.743 47.1684 46.6384 46.0638 46.6384H5.93603C4.83147 46.6384 3.93604 45.743 3.93604 44.6384V31.3615M9.85732 18.8128L25.4287 34.215L41.0002 18.8128M25.4279 3L25.4279 33.8045" stroke="#FFFFF0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path></svg>저장하기</button><button class="topBtns h-full min-h-0  rounded-none bg-[#454558] px-3 py-[0.35rem] text-xs text-[#fff]"><svg xmlns="http://www.w3.org/2000/svg" class="d-inline relative top-[-1px] mr-2 h-[0.8rem] w-[0.7rem]" viewBox="0 0 60 51" fill="none"><path d="M36 15V3L57 24L36 45V32.7C21 32.7 10.5 37.5 3 48C6 33 15 18 36 15Z" stroke="#FFFFF0" stroke-width="5" stroke-linejoin="round"></path></svg>불러오기</button><button class="topBtns h-full min-h-0  rounded-none bg-[#454558] px-3 py-[0.35rem] text-xs text-[#fff]"><svg xmlns="http://www.w3.org/2000/svg" class="d-inline relative top-[-1px] mr-2 h-[0.8rem] w-[0.7rem]" viewBox="0 0 50 50" fill="none"><path d="M46.3846 24.8552C46.3846 37.0851 36.6726 46.9994 24.6923 46.9994C12.712 46.9994 3 37.0851 3 24.8552C3 12.6252 12.712 2.71094 24.6923 2.71094C31.9526 2.71094 38.3798 6.35205 42.3173 11.9431" stroke="white" stroke-width="5" stroke-linecap="round"></path><path d="M35.8379 14.1149L44.598 14.2388L46.6418 5.71944" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path></svg>초기화</button><button class="lBtn flex h-full min-h-0 items-center rounded-none  bg-[#454558] px-3 py-[0.55rem]  text-xs text-[#fff]"><div class="login_img login  relative top-[-1px] mr-2 inline-block   "></div>로그인</button></div></div><div class="main_divide"><div class="left_tab"><div class="join join-vertical grid w-[60px] grid-cols-1 gap-[3px] rounded-none lSize:gap-[10px] "><button class="join-item h-[40px] w-[50px] rounded px-1 py-2 text-xs transition-colors duration-100 lSize:text-[1rem] bg-[#38FEC9] font-bold text-[#292238]" style="line-height: 12px;">선발 <br> 선수</button><button class="btn join-item h-[40px] w-[50px] rounded px-2 py-2 text-xs transition-colors duration-100 lSize:text-[1rem] bg-[#333B39] text-[#fffff0]" style="line-height: 12px;">후보 <br> 선수</button><button class="btn join-item h-[40px] w-[50px] rounded px-2 py-2 text-xs transition-colors duration-100 lSize:text-[1rem] bg-[#333B39] text-[#fffff0]" style="line-height: 12px;">스킬 <br> 부스트</button></div></div><div class="center_content "><div style="width: 100%; height: 100%; opacity: 1; transform: none;"><div class="start_wrap"><div class="current_formation truncate"><span>포메이션</span>4-3-3 HOLDING</div><div class="pos_wrap 433_holding" style="position: relative;"><div class="playerCard  _GK " draggable="true" style="left: -3px; top: 5px; z-index: 1; opacity: 1; transition: left 0.3s, top 0.3s; display: flex; align-items: center; justify-content: center; position: absolute;"><span class="position_name">GK</span></div><div class="attack_wrap" style="position: relative; height: 33%; width: 100%;"><div class="playerCard  _LW " draggable="true" style="left: 183.75px; top: 0px; z-index: 1; opacity: 1; transition: left 0.3s, top 0.3s; display: flex; align-items: center; justify-content: center; position: absolute;"><span class="position_name">LW</span></div><div class="playerCard  _ST1 " draggable="true" style="left: 392.5px; top: -15px; z-index: 1; opacity: 1; transition: left 0.3s, top 0.3s; display: flex; align-items: center; justify-content: center; position: absolute;"><span class="position_name">ST</span></div><div class="playerCard  _RW " draggable="true" style="left: 601.25px; top: 0px; z-index: 1; opacity: 1; transition: left 0.3s, top 0.3s; display: flex; align-items: center; justify-content: center; position: absolute;"><span class="position_name">RW</span></div></div><div class="mid_wrap" style="position: relative; height: 33%; width: 100%;"><div class="playerCard  _CM1 " draggable="true" style="left: 183.75px; top: 15px; z-index: 1; opacity: 1; transition: left 0.3s, top 0.3s; display: flex; align-items: center; justify-content: center; position: absolute;"><span class="position_name">CM</span></div><div class="playerCard  _CDM1 " draggable="true" style="left: 392.5px; top: 30px; z-index: 1; opacity: 1; transition: left 0.3s, top 0.3s; display: flex; align-items: center; justify-content: center; position: absolute;"><span class="position_name">CDM</span></div><div class="playerCard  _CM2 " draggable="true" style="left: 601.25px; top: 15px; z-index: 1; opacity: 1; transition: left 0.3s, top 0.3s; display: flex; align-items: center; justify-content: center; position: absolute;"><span class="position_name">CM</span></div></div><div class="defense_wrap" style="position: relative; height: 33%; width: 100%;"><div class="playerCard  _LB " draggable="true" style="left: 142px; top: 30px; z-index: 1; opacity: 1; transition: left 0.3s, top 0.3s; display: flex; align-items: center; justify-content: center; position: absolute;"><span class="position_name">LB</span></div><div class="playerCard  _CB1 " draggable="true" style="left: 309px; top: 30px; z-index: 1; opacity: 1; transition: left 0.3s, top 0.3s; display: flex; align-items: center; justify-content: center; position: absolute;"><span class="position_name">CB</span></div><div class="playerCard  _CB2 " draggable="true" style="left: 476px; top: 30px; z-index: 1; opacity: 1; transition: left 0.3s, top 0.3s; display: flex; align-items: center; justify-content: center; position: absolute;"><span class="position_name">CB</span></div><div class="playerCard  _RB " draggable="true" style="left: 643px; top: 30px; z-index: 1; opacity: 1; transition: left 0.3s, top 0.3s; display: flex; align-items: center; justify-content: center; position: absolute;"><span class="position_name">RB</span></div></div></div></div></div></div><div class="right_tab"><div class="right_wrap overflow-y-auto"><div class="ovr_area"><div class="ovr_union" style="opacity: 1;"><span>OVR</span>0</div></div><div class="rest_area"><div class="points"><div class="imgs"></div><span>0</span></div><div class="chart_toggle"><span>육성 차트</span><label class="switch_label"><input type="checkbox" role="switch" class="switch_checkbox "></label></div><div class="chart_toggle"><span>스타 포인트</span><strong>0<strong class="ml-[3px]">/ 55</strong></strong></div><button class="btn_formation px-3 py-[0.42rem]"><span></span><strong>포메이션 설정</strong></button><button class="btn_level px-3 py-[0.42rem]"><span></span><strong>레벨 일괄 설정</strong></button></div></div></div></div><div class="search_inner origin_search" style="opacity: 1; transform: none;"><div class="top_area flex h-[10%] max-h-[43px] min-h-[30px] items-center justify-between px-3 py-1 lSize:px-1"><div class="left_text  flex items-center text-sm text-white"><button class="btn_close mr-4 h-full min-h-0 min-w-[5rem] rounded-none bg-transparent text-xs text-[#fff] sSize:min-w-[5.4rem] sSize:text-sm lSize:min-w-[6rem]"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47 79" fill="none" class="relative top-[-2px] h-[0.9rem] w-[0.9rem] sSize:h-[1rem] sSize:w-[1rem] lSize:top-[-3px] lSize:h-[1.1rem] lSize:w-[1.1rem]"><path d="M5.13708 37.0265L43.8201 75.7095M3.04611 41.2084L41.7291 2.52546" stroke="#F5F5F5" stroke-width="7"></path></svg><span class="ml-2 text-base tracking-normal text-[#fff] sSize:text-[1.2rem] lSize:text-[1.3rem]">선수 검색</span></button></div><div class="relative  flex w-full grow bg-[#101021] "><input placeholder="선수명 검색 (다중 검색 가능)" class="inputSearch m-[2px] h-auto w-full rounded-[1rem]  border border-solid  border-[#67676c]  bg-[#101021] px-3 py-[0.4rem]  text-sm text-white transition-all duration-100 ease-in-out placeholder:font-normal placeholder:text-[#81818A] focus:border-[#38fec9] sSize:py-[0.3rem] sSize:text-base lSize:py-[0.4rem] lSize:text-lg" value=""><button class="btn_search origin" style="top: 50%; transform: translateY(-50%);">검색</button></div><div class="btn_area "><button class="btn_reset origin">초기화</button></div></div><div class="search_zone  mt-2 flex flex-wrap  overflow-y-auto text-white"><div class="zone _1 grid  w-full grid-cols-4 gap-[0.3rem]" style="grid-template-columns: repeat(3, minmax(110px, 1fr)) minmax(250px, 1fr);"><div class="box_1 text-sm sSize:text-base lSize:text-[1.2rem]"><div class="logo_normal"></div>클래스</div><div class="box_1 text-sm sSize:text-base lSize:text-[1.2rem]"><div class="logo_normal"></div>포지션</div><div class="box_1 text-sm sSize:text-base lSize:text-[1.2rem]"><div class="logo_normal"></div>고유 개인기</div><div class="right_area"><div class="box_2 text-sm sSize:text-base lSize:text-[1.2rem]" style="margin-bottom: 0.3rem;"><span class="text w-[30%] text-xs sSize:text-sm lSize:text-[1.2rem]">기본 OVR</span><div class="input_group w-[70%]" style="display: none;"><input type="number" pattern="[0-9]*" inputmode="numeric" class="numInput w-[45%] " value="50"><span class="numSpan flex w-[10%] items-center justify-center text-center text-center">~</span><input type="number" pattern="[0-9]*" inputmode="numeric" class="numInput w-[45%] " value="99"></div><div style="display: flex; flex-direction: column; gap: 4px; width: 100%; margin-top: 6px;"><div id="slider-ovr-value" style="text-align: center; font-size: 0.85rem; color: white;">50 ~ 99</div><div id="slider-ovr-slider" class="noUi-target noUi-ltr noUi-horizontal noUi-txt-dir-ltr" style="position: relative; width: 90%; height: 8px; background: rgb(68, 68, 68); border-radius: 4px; margin: 0px auto;"><div class="noUi-base"><div class="noUi-connects"><div class="noUi-connect" style="transform: translate(0%, 0px) scale(1, 1);"></div></div><div class="noUi-origin" style="transform: translate(-100%, 0px); z-index: 5;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="50.0" aria-valuemax="99.0" aria-valuenow="50.0" aria-valuetext="50.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(0%, 0px); z-index: 4;"><div class="noUi-handle noUi-handle-upper" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="50.0" aria-valuemax="99.0" aria-valuenow="99.0" aria-valuetext="99.00"><div class="noUi-touch-area"></div></div></div></div></div></div></div><div class="box_2 text-sm sSize:text-base lSize:text-[1.2rem]"><span class="text w-[30%] text-xs sSize:text-sm lSize:text-[1.2rem]">진화 등급</span><div class="relative w-[50%] max-w-xs"><div class="dropBox flex h-[32px] min-h-[1rem] cursor-pointer items-center  rounded bg-[#282838] px-2  text-sm text-white border border-solid border-[#2A8D7A]"><div class="flex items-center justify-center pl-2"><img src="https://fco.vod.nexoncdn.co.kr/assets/ui/element/playercard/CraftingIcon/CRAFTING_ICON_LV_S_0.png" alt="진화 이미지" class="h-6 w-6 lSize:h-8 lSize:w-8"></div><svg xmlns="http://www.w3.org/2000/svg" class="absolute right-[1rem] h-2 w-2 transform transition-transform " viewBox="0 0 36 23" fill="none"><path d="M18 23L0.679487 0.500003L35.3205 0.5L18 23Z" fill="white"></path></svg></div></div></div></div></div><div class="zone _2 grid w-full grid-cols-4 gap-[0.3rem]" style="grid-template-columns: repeat(3, minmax(110px, 1fr)) minmax(250px, 1fr); margin-top: 0.3rem;"><div class="box_3 px-3 py-2 text-sm sSize:text-base lSize:text-[1.2rem]"><span class="text text-sm lSize:text-[1.2rem]">국적</span><div class="logo_sm"></div></div><div class="box_3 px-3 py-2 text-sm sSize:text-base lSize:text-[1.2rem]"><span class="text text-sm lSize:text-[1.2rem]">리그</span><div class="logo_sm"></div></div><div class="box_3 px-3 py-2 text-sm sSize:text-base lSize:text-[1.2rem]"><span class="text text-sm lSize:text-[1.2rem]">팀</span><div class="logo_sm"></div></div><div class="right_area h-full"><div class="box_2 h-full text-sm sSize:text-base"><span class="text w-[30%] text-xs sSize:text-sm lSize:text-[1.2rem]">키(cm)</span><div class="input_group w-[70%]" style="display: none;"><input type="number" pattern="[0-9]*" inputmode="numeric" class="numInput w-[45%] " value="150"><span class="numSpan flex w-[10%] items-center justify-center text-center text-center">~</span><input type="number" pattern="[0-9]*" inputmode="numeric" class="numInput w-[45%] " value="210"></div><div style="display: flex; flex-direction: column; gap: 4px; width: 100%; margin-top: 6px;"><div id="slider-h-value" style="text-align: center; font-size: 0.85rem; color: white;">150 ~ 210</div><div id="slider-h-slider" class="noUi-target noUi-ltr noUi-horizontal noUi-txt-dir-ltr" style="position: relative; width: 90%; height: 8px; background: rgb(68, 68, 68); border-radius: 4px; margin: 0px auto;"><div class="noUi-base"><div class="noUi-connects"><div class="noUi-connect" style="transform: translate(0%, 0px) scale(1, 1);"></div></div><div class="noUi-origin" style="transform: translate(-100%, 0px); z-index: 5;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="150.0" aria-valuemax="210.0" aria-valuenow="150.0" aria-valuetext="150.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(0%, 0px); z-index: 4;"><div class="noUi-handle noUi-handle-upper" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="150.0" aria-valuemax="210.0" aria-valuenow="210.0" aria-valuetext="210.00"><div class="noUi-touch-area"></div></div></div></div></div></div></div></div></div><div class="zone _3 grid w-full gap-[0.3rem]" style="grid-template-columns: repeat(3, minmax(110px, 1fr)) minmax(250px, 1fr); margin-top: 0.3rem;"><div class="box_1 text-sm sSize:text-base lSize:text-[1.2rem]"><div class="logo_normal"></div>스킬 부스트</div><div class="box_1 text-sm sSize:text-base lSize:text-[1.2rem]" style="position: relative;"><div class="logo_normal"></div>주발/약발<div class="cf-foot-container" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: flex; align-items: center; gap: 12px; background: rgba(0, 0, 0, 0);"><div class="cf-foot-box disabled" id="left-foot-box" style="width: 70px; height: 64px; line-height: 64px; position: relative;">5</div><div class="cf-foot-box" id="right-foot-box" style="width: 70px; height: 64px; line-height: 64px; position: relative;">1</div></div></div><div class="box_4 text-sm sSize:text-base lSize:text-[1.2rem]" style="position: relative;"><div class="logo_normal"></div>개인기 등급 / 체력<div id="custom-skill-container" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; display: flex; flex-direction: column; gap: 8px; padding: 6px; background: white; z-index: 1000;"><div id="custom-skill-label" style="font-weight: bold; font-size: 1rem; color: white; text-align: center; width: 100%;">★★★</div><div id="custom-skill-slider" class="noUi-target noUi-ltr noUi-horizontal noUi-txt-dir-ltr" style="position: relative; width: 120px; height: 8px; background: rgb(68, 68, 68); border-radius: 4px; margin: 0px auto;"><div class="noUi-base"><div class="noUi-connects"><div class="noUi-connect" style="transform: translate(0%, 0px) scale(0.5, 1);"></div></div><div class="noUi-origin" style="transform: translate(-50%, 0px); z-index: 4;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="1.0" aria-valuemax="5.0" aria-valuenow="3.0" aria-valuetext="3"><div class="noUi-touch-area"></div></div></div></div></div></div></div><div class="right_area"><div class="box_2 text-sm sSize:text-base" style="margin-bottom: 0.3rem;"><span class="text w-[30%] text-xs sSize:text-sm lSize:text-[1.2rem]">몸무게(kg)</span><div class="input_group w-[70%]" style="display: none;"><input type="number" pattern="[0-9]*" inputmode="numeric" class="numInput w-[45%] " value="50"><span class="numSpan flex w-[10%] items-center justify-center text-center">~</span><input type="number" pattern="[0-9]*" inputmode="numeric" class="numInput w-[45%] " value="120"></div><div style="display: flex; flex-direction: column; gap: 4px; width: 100%; margin-top: 6px;"><div id="slider-w-value" style="text-align: center; font-size: 0.85rem; color: white;">50 ~ 120</div><div id="slider-w-slider" class="noUi-target noUi-ltr noUi-horizontal noUi-txt-dir-ltr" style="position: relative; width: 90%; height: 8px; background: rgb(68, 68, 68); border-radius: 4px; margin: 0px auto;"><div class="noUi-base"><div class="noUi-connects"><div class="noUi-connect" style="transform: translate(0%, 0px) scale(1, 1);"></div></div><div class="noUi-origin" style="transform: translate(-100%, 0px); z-index: 5;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="50.0" aria-valuemax="120.0" aria-valuenow="50.0" aria-valuetext="50.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(0%, 0px); z-index: 4;"><div class="noUi-handle noUi-handle-upper" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="50.0" aria-valuemax="120.0" aria-valuenow="120.0" aria-valuetext="120.00"><div class="noUi-touch-area"></div></div></div></div></div></div></div><div class="box_2 text-sm sSize:text-base"><span class="text w-[30%] text-xs sSize:text-sm lSize:text-[1.2rem]">선수가치(억)</span><div class="input_group w-[70%]" style="display: none;"><input type="number" pattern="[0-9]*" inputmode="numeric" class="numInput w-[45%] " value="1"><span class="numSpan flex w-[10%] items-center justify-center text-center text-center">~</span><input type="number" pattern="[0-9]*" inputmode="numeric" class="numInput w-[45%] " value="200"></div><div style="display: flex; flex-direction: column; gap: 4px; width: 100%; margin-top: 6px;"><div id="slider-val-value" style="text-align: center; font-size: 0.85rem; color: white;">1 ~ 200</div><div id="slider-val-slider" class="noUi-target noUi-ltr noUi-horizontal noUi-txt-dir-ltr" style="position: relative; width: 90%; height: 8px; background: rgb(68, 68, 68); border-radius: 4px; margin: 0px auto;"><div class="noUi-base"><div class="noUi-connects"><div class="noUi-connect" style="transform: translate(0%, 0px) scale(1, 1);"></div></div><div class="noUi-origin" style="transform: translate(-100%, 0px); z-index: 5;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="1.0" aria-valuemax="200.0" aria-valuenow="1.0" aria-valuetext="1.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(0%, 0px); z-index: 4;"><div class="noUi-handle noUi-handle-upper" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="1.0" aria-valuemax="200.0" aria-valuenow="200.0" aria-valuetext="200.00"><div class="noUi-touch-area"></div></div></div></div></div></div></div></div></div></div></div></div></div>
+<!-- 유의사항 레이어 -->
+<div class="notice layer_popup">
+    <div class="content clearfix">
+        <button type="button" onclick="layerPopupClose('notice');" class="btn_close"><p class="hidden">닫기</p></button>
+        <h4 class="title"><strong id="NoticeTitleArea"></strong></h4>
+        <div class="notice" id="NoticeContentsArea"></div>
+        <div class="button">
+            <button type="button" onclick="layerPopupClose('notice');" class="btn_type_blue">확인</button>
+        </div>
+    </div>
+</div>
+<!-- //유의사항 레이어 -->
+
+
+        <!-- //MAIN -->
+        
+    <script src="https://ssl.nexon.com/s1/fcm/mobile/sqmaker/app.js?t=202506061327"></script>
+
+    </div>
+
+<script type="text/javascript" src="https://ssl.nexon.com/s1/global/ngb_bodyend.js" charset="euc-kr"></script><div><form id="formLogin" name="formLogin" method="post"></form></div></body></html>
